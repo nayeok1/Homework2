@@ -28,11 +28,24 @@
   ![screenshot](2.4.png){:height="50%" width="50%"}
  
 mymatrix[,1] shows the first column of the mymatrix which is 1 5 9. Same as mymatrix[,1], mydf[,1] and mydf[[1]] shows the first column of the mydf. mydf[,1] and mydf[[1]] are equivalent. mydf[1] shows the all the information with first column. Each car's name and mpg. 
-
-
  
 3. Ask a question that requires a student to understand how to share access to a directory and a file in that directory on a Unix/Linux filesystem from their home directory with a colleague without exposing the user's entire directory. Your question should require an answer using chmod {u,g,o}{+,-}{r,w,x} (not using octal permissions).
-  * **Question:** 
+  * **Question:** Create a directory called "chmodtest" on your home directory and create a file called "test" inside chmodtest directory. Allow you to read, write and execute a file, and allow group to write and execute a file only, and allow others to execute a file only
   * **Answer:**
-  
-
+  > $ cd ~/  
+    $ mkdir chmodtest  
+    $ ls -l   
+    
+ls -l is to check whether the directory is executable or not. When we check the chmodtest directory, it is already executable.(Because this will be the parent directory we have to make sure this directory is executable) If it is not executable, we have to change it but since it is executable for default directory we don't need to change anything. 
+  > $ cd chmodtest  
+    $ touch test  
+    $ ls -l  
+    
+ ls -l is to check the property of the file. Who is allow to read, write and execute. After chekcing this property, we know which one to edit.   
+  > $ chmod u+x test  
+    $ chmod g-r test  
+    $ chmod g+wx test  
+    $ chmod o-r test  
+    $ chmod o+x test  
+    $ ls -l  
+    
