@@ -22,13 +22,12 @@
   * **Question:** Create 3 by 4 matrix with entries of 1 through 12 by row and give the matrix name it as mymatrix. Then create or import or use the built in data frame and name it as mydf. Compare mymatrix[,1] vs. mydf[,1] vs. mydf[1] vs. mydf[[1]].
   * **Answer:**
   > mymatrix <-matrix(c(1:12),3,4,byrow=TRUE)  
-    mymatrix  
-          [,1] [,2] [,3] [,4]  
-   [1,]    1    2    3    4  
-   [2,]    5    6    7    8  
-   [3,]    9   10   11   12  
   > mydf <-mtcars 
+ 
+mymatrix[,1] shows the first column of the mymatrix which is 1 5 9. Same as mymatrix[,1], mydf[,1] and mydf[[1]] shows the first column of the mydf. mydf[,1] and mydf[[1]] are equivalent. mydf[1] shows the all the information with first column. Each car's name and mpg. 
  
 3. Ask a question that requires a student to understand how to share access to a directory and a file in that directory on a Unix/Linux filesystem from their home directory with a colleague without exposing the user's entire directory. Your question should require an answer using chmod {u,g,o}{+,-}{r,w,x} (not using octal permissions).
   * **Question:** 
   * **Answer:**
+  
+
