@@ -22,10 +22,10 @@
   * **Question:** Create 3 by 4 matrix with entries of 1 through 12 by row and give the matrix name it as mymatrix. Then create or import or use the built in data frame and name it as mydf. Compare mymatrix[,1] vs. mydf[,1] vs. mydf[1] vs. mydf[[1]].
   * **Answer:**
   
-  ![screenshot](2.1.png){:height="50%" width="50%"}
-  ![screenshot](2.2.png){:height="50%" width="50%"}
-  ![screenshot](2.3.png){:height="50%" width="50%"}
-  ![screenshot](2.4.png){:height="50%" width="50%"}
+  ![screenshot](2.1.png)
+  ![screenshot](2.2.png)
+  ![screenshot](2.3.png)
+  ![screenshot](2.4.png)
  
 mymatrix[,1] shows the first column of the mymatrix which is 1 5 9. Same as mymatrix[,1], mydf[,1] and mydf[[1]] shows the first column of the mydf. mydf[,1] and mydf[[1]] are equivalent. mydf[1] shows the all the information with first column. Each car's name and mpg. 
  
