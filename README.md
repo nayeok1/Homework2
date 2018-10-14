@@ -21,8 +21,9 @@
 2. Ask a question that requires a student to understand the difference between accessing a column in a matrix with numeric indices versus accessing a column in a data frame with numeric indices. Your question should require an answer comparing the following: mymatrix[,1] vs. mydf[,1] vs. mydf[1] vs. mydf[[1]].
   * **Question:** Create 3 by 4 matrix with entries of 1 through 12 by row and give the matrix name it as mymatrix. Then create or import or use the built in data frame and name it as mydf. Compare mymatrix[,1] vs. mydf[,1] vs. mydf[1] vs. mydf[[1]].
   * **Answer:**
+  
   ![screenshot](2.1.png)
-  ![screenshot](2.2.png)
+  ![screenshot](2.2.png=30x40)
   ![screenshot](2.3.png)
   ![screenshot](2.4.png)
  
@@ -34,4 +35,4 @@ mymatrix[,1] shows the first column of the mymatrix which is 1 5 9. Same as myma
   * **Question:** 
   * **Answer:**
   
-![screenshot](1.png)
+
