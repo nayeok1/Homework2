@@ -23,7 +23,8 @@
   * **Answer:**
   > mymatrix <-matrix(c(1:12),3,4,byrow=TRUE)  
     mymatrix  
-            [,1] [,2] [,3] [,4]  
+          [,1] [,2] [,3] [,4]  
    [1,]    1    2    3    4  
    [2,]    5    6    7    8  
    [3,]    9   10   11   12  
+  > mydf <-mtcars 
