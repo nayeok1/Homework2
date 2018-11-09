@@ -18,6 +18,9 @@
 
 "$ ls emotion" will help you to check whether this procedure worked. This shows the directory called happy only because I remove "sad" directory from "emotion" 
 
+### Question 1 Comments:
+Very nicely done. I would just make sure you do ls ../emotion as ls emotion would do nothing since you are already inside the emotion directory. ls ./ would also work. Also please do not use $ before commands as it makes it difficult to copy and paste them into my console for testing. I recommend doing the triple single quote notation for showing code, but the current way you are doing it works great too. good job!
+
 2. Ask a question that requires a student to understand the difference between accessing a column in a matrix with numeric indices versus accessing a column in a data frame with numeric indices. Your question should require an answer comparing the following: mymatrix[,1] vs. mydf[,1] vs. mydf[1] vs. mydf[[1]].
   * **Question:** Create 3 by 4 matrix with entries of 1 through 12 by row and give the matrix name it as mymatrix. Then create or import or use the built in data frame and name it as mydf. Compare mymatrix[,1] vs. mydf[,1] vs. mydf[1] vs. mydf[[1]].
   * **Answer:**
