@@ -32,6 +32,10 @@ Very nicely done. I would just make sure you do ls ../emotion as ls emotion woul
  
 mymatrix[,1] shows the first column of the mymatrix which is 1 5 9. Same as mymatrix[,1], mydf[,1] and mydf[[1]] shows the first column of the mydf. mydf[,1] and mydf[[1]] are equivalent. mydf[1] shows the all the information with first column. Each car's name and mpg. 
  
+### Question 2 Comments:
+
+Good job. It's worth nothing that matrix columns can **only** be accessed with the ```[,number]``` method.
+ 
 3. Ask a question that requires a student to understand how to share access to a directory and a file in that directory on a Unix/Linux filesystem from their home directory with a colleague without exposing the user's entire directory. Your question should require an answer using chmod {u,g,o}{+,-}{r,w,x} (not using octal permissions).
   * **Question:** Create a directory called "chmodtest" on your home directory and create a file called "test" inside chmodtest directory. Allow you to read, write and execute a file, and allow group to write and execute a file only, and allow others to execute a file only
   * **Answer:**
