@@ -61,3 +61,13 @@ ls -l is to check the property of the file. Who is allow to read, write and exec
     $ ls -l  
  
  ![screenshot](3.2.png) 
+
+### Question 3 Comments:
+
+This is fine. Even better would have been to specify the permissions of the containing directory (chmodtest) so that the permissions of the files inside it could actually be taken advantage of. At the least, you'd have to do the following:
+
+```
+chmod go+x chmodtest
+```
+
+This way, anybody could actually execute the file, provided it was a binary file. A script would also need read permissions for it to execute. All of this assumes that the directory containing chmodtest has appropriate permissions.
